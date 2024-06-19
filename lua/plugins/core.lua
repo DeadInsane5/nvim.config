@@ -56,18 +56,6 @@ return {
     end,
   },
 
-  -- transparency
-  {
-    "folke/tokyonight.nvim",
-    opts = {
-      transparent = true,
-      styles = {
-        sidebars = "transparent",
-        floats = "transparent",
-      },
-    },
-  },
-
   -- lsp config
   {
     "neovim/nvim-lspconfig",
@@ -171,20 +159,4 @@ return {
   {
     "ThePrimeagen/vim-be-good",
   },
-
-  -- gruvbox
-  {
-    "ellisonleao/gruvbox.nvim",
-    priority = 1000,
-    config = true,
-    opts = ...,
-  },
-
-  -- set colorscheme
-  -- {
-  --   "LazyVim/LazyVim",
-  --   opts = {
-  --     colorscheme = "gruvbox",
-  --   },
-  -- },
 }

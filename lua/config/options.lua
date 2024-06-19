@@ -4,3 +4,6 @@
 
 -- wrap text
 vim.opt.wrap = true
+
+-- Pmenu
+vim.opt.pumblend = 0

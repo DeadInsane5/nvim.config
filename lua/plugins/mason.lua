@@ -6,9 +6,11 @@ return {
         border = "rounded",
       },
       ensure_installed = {
+        "ast-grep",
         "bash-language-server",
         "codelldb",
         "clangd",
+        "pyright",
         "stylua",
         "shfmt",
       },

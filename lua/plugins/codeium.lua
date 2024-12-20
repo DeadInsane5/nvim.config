@@ -1,6 +1,6 @@
 return {
-  "Exafunction/codeium.nvim",
-  opts = {
-    enable_chat = true,
-  },
+  -- opts = {
+  -- "Exafunction/codeium.nvim",
+  --   enable_chat = true,
+  -- },
 }
